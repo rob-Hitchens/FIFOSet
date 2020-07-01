@@ -1,5 +1,7 @@
 # FIFOSet
 
+(Draft)
+
 First in, first out key list that can remove a key from anywhere on the list. 
 
 Use for a priority list where some members may cancel participation before they are popped off the list. 
@@ -9,4 +11,6 @@ Use `remove(key)` to remove the first after use (it is not automatic), or any ke
 
 Additional functions to count the keys, check existance, and iterate keys in forward or reverse order of declaration. 
 
+Uses a linked list. Contains no interation and operates at a fixed cost at any scale. 
 
+Depending on the Bytes32Set. 
